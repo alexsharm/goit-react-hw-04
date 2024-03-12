@@ -1,0 +1,12 @@
+.gallery {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.galleryItem {
+  width: calc((100% - 72px) / 4);
+  background-color: whitesmoke;
+}
