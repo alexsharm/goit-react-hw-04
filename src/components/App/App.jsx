@@ -67,7 +67,6 @@ const App = () => {
   }, [images]);
 
   const openModal = (url) => {
-    console.log("opening");
     setIsOpen(true);
     setImgUrl(url);
   };
