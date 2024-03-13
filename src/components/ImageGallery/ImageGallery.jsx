@@ -8,9 +8,7 @@ const ImageGallery = forwardRef(({ images, onClick }, ref) => {
       {images.map((image) => {
         return (
           <li className={css.galleryItem} key={image.id}>
-            <div onClick={() => onClick(image.urls.regular)}>
-              <ImageCard image={image} />
-            </div>
+            <ImageCard onClick={onClick} image={image} />
           </li>
         );
       })}
